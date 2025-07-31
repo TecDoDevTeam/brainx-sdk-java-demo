@@ -14,25 +14,25 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="34">
         <activity
-            android:name="com.test.demo.SplashContainerActivity"
+            android:name="com.td.demo.SplashContainerActivity"
             android:exported="false" />
         <activity
-            android:name="com.test.demo.SplashActivity"
+            android:name="com.td.demo.SplashActivity"
             android:exported="false" />
         <activity
-            android:name="com.test.demo.BannerActivity"
+            android:name="com.td.demo.BannerActivity"
             android:exported="false" />
         <activity
-            android:name="com.test.demo.RewardActivity"
+            android:name="com.td.demo.RewardActivity"
             android:exported="false" />
         <activity
-            android:name="com.test.demo.InterActivity"
+            android:name="com.td.demo.InterActivity"
             android:exported="false" />
         <activity
             android:name="com.td.demo.NativeActivity"
             android:exported="false" />
         <activity
-            android:name="com.test.demo.DemoActivity"
+            android:name="com.td.demo.DemoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

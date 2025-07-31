@@ -1,4 +1,4 @@
-package com.test.demo;
+package com.td.demo;
 
 import android.content.Context;
 import android.os.Handler;
@@ -38,4 +38,4 @@ public class Logger {
         Log.w(TAG, msg);
     }
 
-}
+} 

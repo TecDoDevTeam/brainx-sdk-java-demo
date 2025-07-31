@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace 'com.test.demo'
+    namespace 'com.td.demo'
     compileSdk 34
 
     defaultConfig {
         applicationId "com.td.demo"
-        minSdk 21
+        minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -22,7 +22,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -37,6 +37,9 @@ android {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
